@@ -1,9 +1,9 @@
-REM Author: AfterPacket
 REM Title: Desktop Goose
 REM Description: Executes Desktop Goose 
 REM Target: Windows 10/11
 REM Version:	1.0
 REM Category:	Prank
+REM Author: AfterPacket
 REM Source:        https://github.com/AfterPacket/Wifi-Nugget-Payloads
 
 GUI r
