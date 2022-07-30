@@ -1,10 +1,11 @@
 REM Title:	macOS rickroll + Crash
-REM Author: AfterPacket
 REM Description:Opens a rickroll  at maximum volume and crashes mac using perl fork 
 REM Target:	macOS 11.0+
 REM Version:	1.0
 REM Category:	Prank
-REM Source:        https://github.com/AfterPacket/Wifi-Nugget-Payloads
+REM Author: AfterPacket
+REM Source: https://github.com/AfterPacket/Wifi-Nugget-Payloads
+
 DELAY 1000
 GUI SPACE
 STRING terminal
