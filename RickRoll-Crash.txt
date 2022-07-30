@@ -1,5 +1,5 @@
 REM Title:	macOS rickroll + Crash
-REM Author: After Packet
+REM Author: AfterPacket
 REM Description:Opens a rickroll  at maximum volume and crashes mac using perl fork 
 REM Target:	macOS 11.0+
 REM Version:	1.0
