@@ -1,7 +1,7 @@
 REM Title: Desktop Goose
 REM Description: Executes Desktop Goose 
 REM Target: Windows 10/11
-REM Version:	1.1
+REM Version:	1.0
 REM Category:	Prank
 REM Author: AfterPacket
 REM Source:        https://github.com/AfterPacket/Wifi-Nugget-Payloads
@@ -28,7 +28,7 @@ DELAY 5000
 STRING cd "%UserProfile%\Downloads\DesktopGoose v0.3"
 ENTER
 DELAY 1000
-STRING GooseDesktop.exe
+STRING GooseDesktop.exe && GooseDesktop.exe && GooseDesktop.exe && GooseDesktop.exe && GooseDesktop.exe && GooseDesktop.exe
 ENTER
 DELAY 3000
 STRING taskkill /f /im chrome.exe
